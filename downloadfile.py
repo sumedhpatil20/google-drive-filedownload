@@ -31,7 +31,7 @@ def save_response_content(response, destination):
 
 n = len(sys.argv)
 if n < 3:
-	print("less number number of arguments expected 2 arguments")
+	print("less number of arguments, expected 2 arguments")
 else:
 	file_id = sys.argv[1]
 	destination = sys.argv[2] +"\\file.ext"
